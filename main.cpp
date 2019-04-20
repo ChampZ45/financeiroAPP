@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "principal.h""
 #include <QApplication>
 #include "util/dbutil.h"
 #include "QtSql/QSqlDatabase"
@@ -9,8 +9,8 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    principal p;
+    p.show();
 
     return a.exec();
 }

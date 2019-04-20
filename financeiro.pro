@@ -40,3 +40,6 @@ HEADERS += \
 FORMS += \
     principal.ui
 
+RESOURCES += \
+    images.qrc
+
